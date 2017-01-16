@@ -1,1 +1,13 @@
-body {background-color: #ff0000;}
+$mainBlue: #2f5572;
+
+body {
+  background: $mainBlue;
+  columns: 200px 2;
+}
+
+.box {
+  a {
+    display: block;
+    padding: 10px;
+  }
+}
